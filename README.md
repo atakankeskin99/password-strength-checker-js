@@ -43,6 +43,96 @@ These are intentionally isolated from the core evaluation logic and exist purely
 
 ---
 
+---
+
+## 🧠 Mini Case Study — Password Strength Checker (Node.js)
+
+### 📌 Problem
+
+Users often overestimate the strength of their passwords.  
+A quick and deterministic way to evaluate password quality can help demonstrate how basic security rules work in practice.
+
+This project focuses on implementing a simple rule-based password strength evaluation using a CLI interface.
+
+---
+
+### 🎯 Project Goals
+
+- Re-implement an existing Java console project in JavaScript (Node.js)
+- Practice CLI input handling and modular structure
+- Keep logic simple and deterministic
+- Improve project documentation and structure
+- Reinforce learning through cross-language adaptation
+
+This project is intentionally **learning-focused**, not a production-grade security tool.
+
+---
+
+### 🛠️ Approach & Design Decisions
+
+- Built as a Node.js CLI application
+- Strength is evaluated using rule-based checks:
+  - Length
+  - Uppercase letters
+  - Lowercase letters
+  - Digits
+  - Special characters
+- No entropy-based scoring (kept intentionally simple)
+- Clear separation between:
+  - Input handling
+  - Evaluation logic
+  - Output formatting
+
+Easter eggs were intentionally isolated from the core logic to keep the evaluation process clean.
+
+---
+
+### 📚 What I Learned
+
+- Handling user input in Node.js CLI applications
+- Structuring small projects with modular logic
+- Translating application logic between programming languages (Java → JavaScript)
+- Writing clearer, more structured GitHub documentation
+- Thinking about edge cases and user interaction design
+
+---
+
+### ⚠️ Limitations
+
+This project uses simplified rules for educational purposes.
+
+It does not include:
+
+- Entropy-based strength calculations
+- Dictionary attack detection
+- Breached password database checks
+- Real-world security standards
+
+---
+
+### 🚀 Possible Improvements
+
+- Add entropy-based strength scoring
+- Allow configurable strength rules
+- Add automated tests
+- Build a web-based GUI version
+- Integrate with a simple database for history tracking
+
+---
+
+### ✅ Why This Project Matters
+
+Although simple, this project demonstrates:
+
+- Cross-language logic adaptation
+- Structured problem-solving
+- CLI application development
+- Clear documentation practices
+- An iterative learning mindset
+
+It represents a deliberate step in strengthening foundational development skills.
+
+
 ## ▶️ Run
 
 ```bash
