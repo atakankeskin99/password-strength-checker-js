@@ -7,7 +7,7 @@ function calculateStrength(password) {
   if (/[A-Z]/.test(password)) score++;
   if (/[a-z]/.test(password)) score++;
   if (/[0-9]/.test(password)) score++;
-  if (/[!@#$%^&*().,?]/.test(password)) score++;
+  if (/[!@#%^&*().,?]/.test(password)) score++;
 
   return score;
 }
